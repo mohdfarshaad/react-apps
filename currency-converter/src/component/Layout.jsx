@@ -4,7 +4,7 @@ import bg from "../assets/bg.jpg";
 function Layout({ children }) {
   return (
     <div
-      className="min-h-screen w-full flex bg-black/90 justify-center items-center bg-cover bg-center h-screen"
+      className="min-h-screen w-full flex bg-black/90 justify-center items-center bg-cover bg-center h-screen md:p-6 p-3"
       style={{ backgroundImage: `url(${bg})` }}
     >
       {children}

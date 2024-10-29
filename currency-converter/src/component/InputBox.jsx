@@ -10,7 +10,9 @@ function InputBox({ label, readOnly }) {
       <div>
         <input
           type="number"
-          className="outline:none focus:outline-none py-1.5 px-3 rounded-s-md "
+          className="outline:none focus:outline-none  rounded-s-md py-1.5 px-2 md:w-[300px]
+          w-[150px]
+          "
           placeholder="0"
           readOnly={readOnly}
         />
@@ -18,7 +20,8 @@ function InputBox({ label, readOnly }) {
           name="currency"
           size="1"
           defaultValue="usd"
-          className="px-2 py-2 rounded-e-md cursor-pointer outline-none"
+          className="px-2 py-2 rounded-e-md cursor-pointer outline-none md:w-[100px]
+          w-[50px]"
         >
           <option value="red">inr</option>
           <option value="green">gbp</option>
